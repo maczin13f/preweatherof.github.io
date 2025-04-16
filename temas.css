@@ -1,7 +1,7 @@
 /*NOITE*/
 .modonoite {
     transition-duration: 0.7s;
-    background: url(imagens/noite.jpeg);
+    background: url(noite.jpeg);
     background-size: cover;
     color: white;
 }
