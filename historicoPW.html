@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico de Buscas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="temas.css">
+    <link rel="stylesheet" href="historico.css">
+</head>
+<body>
+    <h1><span class="namesite">PreWeather</span></h1>
+    <div class="h3pai">
+    <h3> Histórico de buscas</h3>
+    <select id="mudatemas">
+        <option value="padrao">Padrão</option>
+      <option value="noite">Noite</option>
+      <option value="dia">Dia</option>
+      <option value="tarde">Tarde</option>
+      <option value="manha">Amanhecer</option>
+      <option value="auroras">Auroras</option>
+      <option value="floresta">Floresta</option>
+    </select>
+    </div>
+    <button class="ver" onclick="loadHistory()">Carregar Histórico</button>
+    <button class="apagar" onclick="clearHistory()">Apagar Histórico</button>
+    <div id="historico"></div>
+
+    <script defer src="script.js"></script>
+    <script defer src="apiclima.js"></script>
+</body>
+</html>
+

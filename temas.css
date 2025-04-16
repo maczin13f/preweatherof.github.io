@@ -1,0 +1,375 @@
+/*NOITE*/
+.modonoite {
+    transition-duration: 0.7s;
+    background: url(imagens/noite.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+.modonoite h1 {
+    background-color: black;
+    border-color: rgb(21, 21, 236)
+}
+
+.modonoite .namesite {
+    background: linear-gradient(to right, rgb(21, 21, 236), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modonoite .inputpai input,
+.modonoite h3 {
+    color: black;
+    border: solid rgb(21, 21, 236);
+}
+
+.modonoite .inputpai .buscar {
+    background-color: rgb(21, 21, 236)
+}
+
+.modonoite #pais,
+.modonoite .ver,
+.modonoite .apagar {
+    background-color: white;
+    color: black;
+    border: solid rgb(21, 21, 236);
+}
+
+.modonoite .redbanco {
+    border-color: rgb(21, 21, 236);
+}
+
+.modonoite #fechar {
+    background-color: white;
+    color: black;
+    bottom: 714px;
+    border: solid rgb(21, 21, 236);
+}
+
+.modonoite #resultado,
+.modonoite #resultado1,
+.modonoite #resultado2,
+.modonoite #resultado3,
+.modonoite .card-dias  {
+    background: radial-gradient(circle, rgb(21, 21, 236), black);
+    border: solid white 3px;
+}
+
+/*DIA*/
+
+.mododia {
+    transition-duration: 0.7s;
+    background: url(imagens/background.jpeg);
+    background-size: cover;
+}
+
+.mododia h1 {
+    background-color: white;
+    border-color: rgb(85, 85, 248);
+    
+}
+
+.mododia .namesite {
+    background: linear-gradient(to right, rgb(85, 85, 248), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mododia .inputpai input,
+h3 {
+    color: black;
+    border: solid rgb(85, 85, 248);
+}
+
+.mododia .inputpai .buscar {
+    background-color: rgb(85, 85, 248);
+}
+
+.mododia #pais,
+.mododia .ver,
+.mododia .apagar {
+    background-color: white;
+    color: black;
+    border: solid rgb(85, 85, 248);
+}
+   
+.mododia .redbanco {
+    border-color: rgb(85, 85, 248);
+}
+
+.mododia #fechar {
+    background-color: white;
+    color: black;
+    bottom: 714px;
+    border: solid rgb(85, 85, 248);
+}
+
+.mododia #resultado,
+.mododia #resultado1,
+.mododia #resultado2,
+.mododia #resultado3,
+.mododia #mapa, 
+.mododia .card-dias {
+    background: radial-gradient(circle, rgb(85, 85, 248), rgb(68, 161, 201));
+    color: white;
+    border: solid white 3px
+
+    
+}
+/*Tarde*/
+
+.modotarde {
+    transition-duration: 0.7s;
+    background: url(imagens/tarde.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+.modotarde h1 {
+    background-color: black;
+    border-color: rgb(255, 72, 0)
+    
+}
+
+.modotarde .namesite {
+    background: linear-gradient(to right, rgb(255, 72, 0), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modotarde .inputpai input,
+.modotarde h3 {
+    color: black;
+    border: solid rgb(255, 72, 0);
+}
+
+.modotarde .inputpai .buscar {
+    background-color: rgb(255, 72, 0);
+}
+
+
+.modotarde #pais,
+.modotarde .ver,
+.modotarde .apagar {
+    background-color: white;
+    color: black;
+    border: solid rgb(255, 72, 0);
+}
+
+.modotarde .redbanco {
+    border-color: rgb(255, 72, 0);
+}
+
+.modotarde .namebut {
+    color: black;
+}
+
+.modotarde #fechar {
+    background-color: white;
+    color: black;
+    bottom: 714px;
+    border: solid rgb(255, 72, 0);
+}
+
+.modotarde #resultado,
+.modotarde #resultado1,
+.modotarde #resultado2,
+.modotarde #resultado3,
+.modotarde #mapa,
+.modotarde .card-dias {
+    background: radial-gradient(circle, rgb(249, 194, 27), rgb(255, 153, 0));
+    border: solid black 3px;
+}
+
+/*MANHÃ*/
+
+.manha {
+    transition-duration: 0.7s;
+    background: url(imagens/manha.jpeg);
+    background-size: cover;
+}
+
+.manha h1 {
+    background-color: white;
+    border-color: rgb(0, 162, 255);
+    
+}
+
+.manha .namesite {
+    background: linear-gradient(to right, rgb(0, 162, 255), rgb(6, 88, 240));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.manha .inputpai input,
+.manha h3 {
+    color: black;
+    border: solid rgb(0, 162, 255);
+}
+
+.manha .inputpai .buscar {
+    background-color: rgb(0, 162, 255);
+}
+
+
+.manha #pais,
+.manha .ver,
+.manha .apagar {
+    background-color: white;
+    color: black;
+    border: solid rgb(0, 162, 255);
+}
+
+.manha .redbanco {
+    border-color: rgb(0, 162, 255);
+}
+
+.manha .namebut {
+    color: black;
+}
+
+.manha #fechar {
+    background-color: white;
+    color: black;
+    bottom: 714px;
+    border: solid rgb(0, 162, 255);
+}
+
+.manha #resultado,
+.manha #resultado1,
+.manha #resultado2,
+.manha #resultado3,
+.manha #mapa,
+.manha .card-dias  {
+    background: radial-gradient(circle, rgb(0, 162, 255), rgb(205, 207, 107));
+    border: solid white 3px;
+}
+
+/*Auroras*/
+.auroras {
+    transition-duration: 0.7s;
+    background: url(imagens/auroras.jpeg);
+    background-size: cover;
+}
+
+.auroras h1 {
+    background-color: black;
+    border-color: aqua;
+    
+}
+
+.auroras .namesite {
+    background: linear-gradient(to right, rgb(21, 21, 236), rgb(198, 79, 79), aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.auroras .inputpai input,
+.auroras h3 {
+    color: black;
+    border: solid black;
+}
+
+.auroras .inputpai .buscar {
+    background: radial-gradient(circle, rgb(0, 30, 255), rgb(132, 4, 237))
+}
+
+
+.auroras #pais,
+.auroras .ver,
+.auroras .apagar {
+    background-color: white;
+    color: black;
+    border: solid aqua;
+}
+
+.auroras .redbanco {
+    border-color: aqua;
+}
+
+.auroras .namebut {
+    color: black;
+}
+
+.auroras #fechar {
+    background-color: white;
+    color: black;
+    bottom: 714px;
+    border: solid aqua;
+}
+
+.auroras #resultado,
+.auroras #resultado1,
+.auroras #resultado2,
+.auroras #resultado3,
+.auroras #mapa,
+.auroras .card-dias  {
+    background: radial-gradient(circle, rgb(0, 30, 255), rgb(132, 4, 237));
+    border: solid black 3px;
+}
+
+/*Floresta*/
+.floresta {
+    transition-duration: 0.7s;
+    background: url(imagens/floresta.jpeg);
+    background-size: cover;
+}
+
+.floresta h1 {
+    background-color: rgb(52, 23, 23);
+    border-color: rgb(0, 255, 0);
+    
+}
+
+.floresta .namesite {
+    background: linear-gradient(to right, rgb(0, 255, 0), white, rgb(255, 255, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.floresta .inputpai input,
+.floresta h3 {
+    color: rgb(52, 23, 23);
+    border: solid rgb(0, 255, 0);
+}
+
+.floresta .inputpai .buscar {
+    background-color: rgb(52, 23, 23);
+    border: solid rgb(0, 255, 0) 1px;
+}
+
+.floresta #pais,
+.floresta .ver,
+.floresta .apagar {
+    background-color: white;
+    color: rgb(52, 23, 23);
+    border: solid rgb(52, 23, 23);
+}
+
+.floresta .redbanco {
+    border-color: rgb(0, 255, 0);
+}
+
+.floresta .namebut {
+    color: black;
+}
+
+.floresta #fechar {
+    background-color: white;
+    color: rgb(52, 23, 23);
+    bottom: 714px;
+    border: solid rgb(0, 255, 0);
+}
+
+.floresta #resultado,
+.floresta #resultado1,
+.floresta #resultado2,
+.floresta #resultado3,
+.floresta #mapa,
+.floresta .card-dias {
+    background: radial-gradient(circle, rgb(196, 214, 0), rgb(53, 166, 53));
+    border: solid rgb(52, 23, 23) 3px;
+}
+
+
+
