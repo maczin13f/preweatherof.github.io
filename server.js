@@ -46,13 +46,20 @@ app.post("/save-search", async (req, res) => {
 // Rota para listar o histórico
 app.get("/search-history", async (req, res) => {
     try {
-        const buscas = await collection.find().sort({ _id: -1 }).limit(10).toArray();
+        const userId = req.query.user_id; // pega da URL
+        if (!userId) return res.status(400).json({ error: "ID de usuário ausente." });
+
+        const buscas = await collection.find({ user_id: userId })
+            .sort({ _id: -1 })
+            .limit(10)
+            .toArray();
         res.json(buscas);
     } catch (error) {
         console.error("❌ Erro ao buscar histórico:", error);
         res.status(500).json({ error: "Erro ao buscar histórico" });
     }
 });
+
 
 // Rota para limpar o histórico
 app.delete("/clear-history", async (req, res) => {
