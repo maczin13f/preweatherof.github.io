@@ -229,3 +229,50 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+document.getElementById("mudatemas").addEventListener("change", function () {
+    const mudatemas = this.value;
+    const body = document.getElementsByTagName('body')[0];
+  
+    if (mudatemas === "noite") {
+      body.classList.add("modonoite");
+    } else 
+     body.classList.remove("modonoite"); {
+    }      
+
+    if (mudatemas === "dia") {
+body.classList.add("mododia");
+    } else 
+    body.classList.remove("mododia"); {
+    }
+
+    if (mudatemas === "tarde") {
+        body.classList.add("modotarde");
+    } else 
+    body.classList.remove("modotarde"); {
+
+    }
+    
+    if (mudatemas === "manha") {
+        body.classList.add("manha");
+    } else 
+    body.classList.remove("manha"); {
+
+    }
+
+    if (mudatemas === "auroras") {
+        body.classList.add("auroras");
+    } else
+    body.classList.remove("auroras"); {
+
+    }
+
+    if (mudatemas === "floresta") {
+        body.classList.add("floresta");
+    } else 
+        body.classList.remove("floresta"); {
+
+        }
+    
+  })
+  
