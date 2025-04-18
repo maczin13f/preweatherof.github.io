@@ -59,7 +59,7 @@
 
 .mododia {
     transition-duration: 0.7s;
-    background: url(imagens/background.jpeg);
+    background: url(background.jpeg);
     background-size: cover;
 }
 
@@ -120,7 +120,7 @@ h3 {
 
 .modotarde {
     transition-duration: 0.7s;
-    background: url(imagens/tarde.jpeg);
+    background: url(tarde.jpeg);
     background-size: cover;
     color: white;
 }
@@ -185,7 +185,7 @@ h3 {
 
 .manha {
     transition-duration: 0.7s;
-    background: url(imagens/manha.jpeg);
+    background: url(manha.jpeg);
     background-size: cover;
 }
 
@@ -248,7 +248,7 @@ h3 {
 /*Auroras*/
 .auroras {
     transition-duration: 0.7s;
-    background: url(imagens/auroras.jpeg);
+    background: url(auroras.jpeg);
     background-size: cover;
 }
 
@@ -311,7 +311,7 @@ h3 {
 /*Floresta*/
 .floresta {
     transition-duration: 0.7s;
-    background: url(imagens/floresta.jpeg);
+    background: url(floresta.jpeg);
     background-size: cover;
 }
 
@@ -370,6 +370,5 @@ h3 {
     background: radial-gradient(circle, rgb(196, 214, 0), rgb(53, 166, 53));
     border: solid rgb(52, 23, 23) 3px;
 }
-
 
 
