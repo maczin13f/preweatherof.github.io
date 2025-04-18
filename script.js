@@ -1,3 +1,10 @@
+let USER_ID = localStorage.getItem("user_id");
+
+if (!USER_ID) {
+    USER_ID = crypto.randomUUID(); // Gera um ID único
+    localStorage.setItem("user_id", USER_ID);
+}
+
 const BACKEND_URL = "https://maczin13f-github-io.onrender.com";
 
 async function loadHistory() {
@@ -75,6 +82,7 @@ async function saveSearch(cidade, estado, pais) {
     const temperatura = document.querySelector(".temperatura strong")?.textContent?.replace("°C", "") || "";
 
     const dados = {
+        user_id: USER_ID, 
         city: cidade,
         state: estado,
         country: pais,
