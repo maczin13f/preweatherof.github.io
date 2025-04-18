@@ -9,7 +9,7 @@ const BACKEND_URL = "https://maczin13f-github-io.onrender.com";
 
 async function loadHistory() {
     try {
-        const response = await fetch(`${BACKEND_URL}/search-history`);
+        const response = await fetch(`${BACKEND_URL}/search-history?user_id=${USER_ID}`);
         const data = await response.json();
 
         const historicoDiv = document.getElementById("historico");
