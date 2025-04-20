@@ -167,11 +167,83 @@ h3 {
     bottom: 27px;
 }
 
-@media (max-width: 768px) {
-  #resultado,
-    #resultado1,
-    #resultado2,
-    #resultado3 {
-        width: 15%;
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 20px;
+      height: auto;
+      padding: 10px;
+      left: 0;
     }
-}
+  
+    .namesite {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .h3pai {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    h3 {
+      font-size: 14px;
+      left: 0;
+      bottom: 20px;
+    }
+  
+    .ver, .apagar {
+      font-size: 10px;
+      padding: 4px;
+      top: -30px;
+      left: 10px;
+    }
+  
+    .inputpai {
+      width: 90%;
+      bottom: 20px;
+    }
+  
+    .inputpai input {
+      font-size: 14px;
+      height: 28px;
+    }
+  
+    .inputpai .buscar {
+      width: 40px;
+      height: 28px;
+      font-size: 16px;
+    }
+  
+    .redbanco {
+      position: static;
+      margin: 10px auto;
+      display: block;
+    }
+  
+    #mapa {
+      position: static;
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    #tagLocalizacao {
+      position: static;
+      margin: 10px auto;
+      display: block;
+      text-align: center;
+    }
+  
+    #pais {
+      position: static;
+      display: block;
+      margin: 0 auto 20px;
+    }
+  
+    select#mudatemas {
+      position: static;
+      display: block;
+      margin: 10px auto;
+    }
+  }
+  
