@@ -222,11 +222,21 @@ h3 {
     }
   
     .redbanco {
-      position: static;
-      margin: 10px auto;
-      display: block;
+      position: relative;
+        left: -5px;
+        bottom: 124px;
+        height: 20px;
     }
-  
+    
+.namebut {
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px;
+    position: relative;
+    bottom: 2px;
+}
+    
     #mapa {
       position: static;
       width: 100%;
@@ -248,9 +258,13 @@ h3 {
     }
   
     select#mudatemas {
-      position: static;
-      display: block;
-      margin: 10px auto;
+      position: relative;
+        left: 170px;
+        width: 64px;
+        top: -63px;
+        height: 20px;
+        font-size: 11px;
+        border: solid 2px;
     }
   }
   
