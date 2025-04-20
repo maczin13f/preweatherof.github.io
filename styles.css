@@ -166,3 +166,12 @@ h3 {
     left: 260px;
     bottom: 27px;
 }
+
+@media (max-width: 768px) {
+  #resultado,
+    #resultado1,
+    #resultado2,
+    #resultado3 {
+        width: 15%;
+    }
+}
