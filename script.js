@@ -159,6 +159,7 @@ function fecharResultado() {
     document.getElementById("resultado3").style.display = "none";
     document.getElementById("mapa").style.display = "none";
     document.getElementById("fechar").style.display = "none";
+     document.getElementById("previsaoDias").style.display = "none"
 }
 
 function getCorTemperatura(temp) {
