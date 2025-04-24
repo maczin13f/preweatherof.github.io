@@ -134,6 +134,7 @@
     border: none;
     margin: 10px auto;
     text-align: center;
+    bottom: 39vw;
   }
 
   #resultado2 {
@@ -196,14 +197,15 @@
 
   .data {
     position: relative;
-        right: 55vw;
-        font-size: 14px;
-        font-weight: bold;
-        text-align: center;
-        bottom: 9vw;
+    right: 25vw;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    bottom: -45vw;
   }
 
   #resultado3 {
+    border: transparent;
     display: none;
     width: 90%;
     margin: 20px auto;
@@ -214,13 +216,12 @@
     background: transparent;
     text-align: center;
   }
-  
+
     .hora {
       position: relative;
-      right: 81.5vw;
-      bottom: -5vw;
+      right: 59vw;
+      top: 30vw;
       text-align: center;
-  }
   }
 
   .previsaoDias {
