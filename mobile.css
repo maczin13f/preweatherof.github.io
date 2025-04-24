@@ -65,14 +65,14 @@
 
   .inputpai .buscar {
     width: 12%;
-        font-size: 14px;
-        height: 21%;
-        top: 29.9%;
-        left: 89.9%;
+    font-size: 14px;
+    height: 21%;
+    top: 27.6%;
+    left: 90.2%;
   }
 
   .redbanco {
-    top: -35vw;
+    top: -38vw;
         font-size: 12px;
   }
 
@@ -97,7 +97,7 @@
   #pais {
     position: relative;
         left: 65%;
-        top: -0.5em;
+        top: -0.8em;
   }
 
   select#mudatemas {
@@ -108,7 +108,7 @@
         padding: 4px;
         left: 35vw;
         height: 7%;
-        top: -24vw;
+        top: -26vw;
     }
    
   }
