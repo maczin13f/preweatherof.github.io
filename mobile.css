@@ -1,221 +1,227 @@
 @media screen and (max-width: 600px) {
 
-    body {
-      margin: 0;
-      padding: 0;
-      font-size: 16px;
-    }
-  
-    #resultados {
-      color: black;
-    }
-  
-    h1 {
-        font-size: 20px;
-        width: 98%;
-        margin: 10px auto;
-        border-radius: 20px;
-        border: 2px solid black;
-        text-align: center;
-        left: 0;
-        top: 1vw;
-    }
-  
-    .namesite {
-      font-size: 24px;
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    .h3pai {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      margin-top: 10px;
-      align-items: center;
-    }
-  
-    h3 {
-      font-size: 14px;
-      text-align: center;
-    }
-  
-    .ver, .apagar {
-      font-size: 12px;
-      padding: 6px 10px;
-      margin: 4px;
-    }
-  
-    .inputpai {
-      width: 90%;
-      margin: 20px auto;
-      display: flex;
-      gap: 10px;
-    }
-  
-    .inputpai input {
-        flex: auto;
-        padding: 5px;
-        font-size: 14px;
-        width: 1000%;
-        position: relative;
-        left: 13%;
-        top: 5vw;
-    }
-  
-    .inputpai .buscar {
-        width: 12%;
-        font-size: 14px;
-        height: 73%;
-        top: 9.2vw;
-        right: 8.5%;
-    }
-  
-    .redbanco {
-      margin-top: 10px;
-      font-size: 12px;
-    }
-  
-    .namebut {
-      color: black;
-      font-size: 12px;
-      font-weight: bold;
-      margin-top: 5px;
-    }
-  
-    #mapa {
-      width: 90%;
-      height: 130px;
-      margin: 20px auto;
-    }
-  
-    #tagLocalizacao {
-      text-align: center;
-      margin: 10px auto;
-    }
-  
-    #pais,
-    select#mudatemas {
-      width: 50%;
-      margin: 10px auto;
-      display: block;
-      font-size: 12px;
-      padding: 4px;
-    }
-  
-    #resultado {
-      width: 90%;
-      height: auto;
-      background: transparent;
-      border: none;
-      margin: 10px auto;
-      text-align: center;
-    }
-  
-    #resultado2 {
-      width: 90%;
-      margin: 10px auto;
-      text-align: center;
-    }
-  
-    .cidade {
-      font-size: 20px;
-      width: 100%;
-      padding: 10px;
-      background: white;
-      color: black;
-      border: 2px solid black;
-      border-radius: 20px;
-      text-align: center;
-    }
-  
-    .temperatura {
-      font-size: 35px;
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    .minima, .maxima, .sensacao {
-      font-size: 13px;
-      text-align: center;
-      margin-top: 5px;
-    }
-  
-    .ar {
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    #resultado1 {
-      display: none;
-      color: white;
-      background: radial-gradient(circle, rgb(4, 4, 138), black);
-      border: 3px solid white;
-      border-radius: 10px;
-      padding: 10px;
-      margin: 20px auto;
-      width: 90%;
-      font-size: 14px;
-      font-weight: bold;
-    }
-  
-    .pressaohumidade,
-    .dataehora {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      margin-top: 10px;
-      font-size: 13px;
-      font-weight: bold;
-    }
-  
-    #resultado3 {
-      display: none;
-      width: 90%;
-      margin: 20px auto;
-      color: white;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 10px;
-      background: transparent;
-      text-align: center;
-    }
-  
-    .hora,
-    .data {
-      font-size: 14px;
-      font-weight: bold;
-      text-align: center;
-    }
-  
-    .previsaoDias {
-      margin-top: 20px;
-      text-align: center;
-    }
-  
-    #fechar {
-      display: block;
-      margin: 20px auto;
-      font-size: 13px;
-      font-weight: bold;
-      border-radius: 50px;
-      padding: 6px 12px;
-      background-color: white;
-      border: 2px solid black;
-      cursor: pointer;
-      width: 100px;
-    }
-  
-    .card-dias {
-      width: 100px;
-      height: 140px;
-      padding: 10px;
-      border-radius: 8px;
-      border: 3px solid white;
-      background: radial-gradient(circle, rgb(4, 4, 138), black);
-      color: white;
-      margin: 10px auto;
-      text-align: center;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
   }
-  
+
+  #resultados {
+    color: black;
+  }
+
+  h1 {
+      font-size: 20px;
+      width: 98%;
+      margin: 10px auto;
+      border-radius: 20px;
+      border: 2px solid black;
+      text-align: center;
+      left: 0;
+      top: 1vw;
+  }
+
+  .namesite {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .h3pai {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .ver, .apagar {
+    font-size: 12px;
+    padding: 6px 10px;
+    margin: 4px;
+  }
+
+  .inputpai {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+  }
+
+  .inputpai input {
+    flex: auto;
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    top: 7vw;
+    right: 2%;
+  }
+
+  .inputpai .buscar {
+    width: 12%;
+    font-size: 14px;
+    height: 25%;
+    top: 11vw;
+    left: 80.8vw;
+  }
+
+  .redbanco {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .namebut {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  #mapa {
+    width: 90%;
+    height: 130px;
+    margin: 20px auto;
+  }
+
+  #tagLocalizacao {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  #pais {
+    position: relative;
+        left: 65%;
+        top: 0.5vw;
+  }
+
+  select#mudatemas {
+    width: 20%;
+        margin: 10px auto;
+        display: block;
+        font-size: 12px;
+        padding: 4px;
+        left: 35vw;
+        height: 6vw;
+        top: -21vw;
+  }
+
+  #resultado {
+    width: 90%;
+    height: auto;
+    background: transparent;
+    border: none;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  #resultado2 {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .cidade {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .temperatura {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .minima {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .ar {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #resultado1 {
+    display: none;
+    color: white;
+    background: radial-gradient(circle, rgb(4, 4, 138), black);
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 90%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .pressaohumidade,
+  .dataehora {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  #resultado3 {
+    display: none;
+    width: 90%;
+    margin: 20px auto;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    background: transparent;
+    text-align: center;
+  }
+
+  .hora,
+  .data {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .previsaoDias {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #fechar {
+    display: block;
+    margin: 20px auto;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 6px 12px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 100px;
+  }
+
+  .card-dias {
+    width: 100px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid white;
+    background: radial-gradient(circle, rgb(4, 4, 138), black);
+    color: white;
+    margin: 10px auto;
+    text-align: center;
+  }
+}
