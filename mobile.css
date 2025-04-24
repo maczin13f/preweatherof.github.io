@@ -48,9 +48,11 @@
 
   .inputpai {
     display: flex;
-    width: 90%;
-    margin: 20px auto;
-    gap: 10px;
+            width: 90%;
+            margin: 20px auto;
+            gap: 10px;
+            flex-direction: column;
+            flex-wrap: nowrap;
   }
 
   .inputpai input {
@@ -63,15 +65,15 @@
 
   .inputpai .buscar {
     width: 12%;
-    font-size: 14px;
-    height: 25%;
-    top: 35%;
-    left: 89.9%;
+        font-size: 14px;
+        height: 21%;
+        top: 29.9%;
+        left: 89.9%;
   }
 
   .redbanco {
-    margin-top: 10px;
-    font-size: 12px;
+    top: -35vw;
+        font-size: 12px;
   }
 
   .namebut {
@@ -94,8 +96,8 @@
 
   #pais {
     position: relative;
-    left: 65%;
-    top: 0.2em;
+        left: 65%;
+        top: -0.5em;
   }
 
   select#mudatemas {
@@ -106,7 +108,7 @@
         padding: 4px;
         left: 35vw;
         height: 7%;
-        top: -21vw;
+        top: -24vw;
     }
    
   }
