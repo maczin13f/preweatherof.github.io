@@ -139,10 +139,9 @@
   }
 
   #resultado2 {
-    left: -0.5vw;
-    width: 90%;
-    margin: 10px auto;
-    text-align: center;
+    width: 330px;
+    left: 4px;
+    bottom: 105vw;
   }
 
   .cidade {
