@@ -84,6 +84,7 @@
   }
 
   #mapa {
+    left: 0vw;
     width: 90%;
     height: 130px;
     margin: 20px auto;
@@ -138,6 +139,7 @@
   }
 
   #resultado2 {
+    left: -0.5vw;
     width: 90%;
     margin: 10px auto;
     text-align: center;
@@ -183,6 +185,8 @@
   }
 
   #resultado1 {
+    bottom: 6vw;
+    left: -2vw;
     display: none;
     color: white;
     background: radial-gradient(circle, rgb(4, 4, 138), black);
@@ -197,7 +201,7 @@
 
   .data {
     position: relative;
-    right: 25vw;
+    right: 18vw;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
@@ -219,14 +223,26 @@
 
     .hora {
       position: relative;
-      right: 59vw;
+      right: 51vw;
       top: 30vw;
       text-align: center;
   }
 
   .previsaoDias {
+    position: relative;
+    bottom: 15vw;
     margin-top: 20px;
     text-align: center;
+  }
+
+  .dias {
+    position: relative;
+    display: flex
+;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    right: 6vw;
   }
 
   #fechar {
