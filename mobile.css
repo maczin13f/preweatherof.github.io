@@ -63,8 +63,8 @@
     width: 12%;
     font-size: 14px;
     height: 25%;
-    top: 11vw;
-    left: 80.8vw;
+    top: 35%;
+    left: 89.9%;
   }
 
   .redbanco {
@@ -92,19 +92,19 @@
 
   #pais {
     position: relative;
-        left: 65%;
-        top: 0.5vw;
+    left: 65%;
+    top: 0.2em;
   }
 
   select#mudatemas {
     width: 20%;
-        margin: 10px auto;
-        display: block;
-        font-size: 12px;
-        padding: 4px;
-        left: 35vw;
-        height: 6vw;
-        top: -21vw;
+    margin: 10px auto;
+    display: block;
+    font-size: 12px;
+    padding: 4px;
+    left: 35vw;
+    height: 7%;
+    top: -21vw;
   }
 
   #resultado {
