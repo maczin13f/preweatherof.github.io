@@ -28,6 +28,7 @@
   }
 
   .h3pai {
+    display: flex;
     flex-direction: column;
     gap: 8px;
     margin-top: 10px;
@@ -46,6 +47,7 @@
   }
 
   .inputpai {
+    display: flex;
     width: 90%;
     margin: 20px auto;
     gap: 10px;
@@ -98,13 +100,15 @@
 
   select#mudatemas {
     width: 20%;
-    margin: 10px auto;
-    display: block;
-    font-size: 12px;
-    padding: 4px;
-    left: 35vw;
-    height: 7%;
-    top: -21vw;
+        margin: 10px auto;
+        display: block;
+        font-size: 12px;
+        padding: 4px;
+        left: 35vw;
+        height: 7%;
+        top: -21vw;
+    }
+   
   }
 
   #resultado {
